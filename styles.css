@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 5px;
+    
+}
+.scoreBoard {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    font-size: 40px;
+}
+#restart {
+    margin-top: 15px;
+    font-size: 40px;
+}
+#winner {
+    margin-top: 20px;
+
+}
+.cell {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    user-select: none;
+}
